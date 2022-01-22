@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    color: ghostwhite;
+    background-color: #0D5154;
+    box-shadow: -2px 43px 105px -21px rgba(0,0,0,0.52);
+    -webkit-box-shadow: -2px 43px 105px -21px rgba(0,0,0,0.52);
+    -moz-box-shadow: -2px 43px 105px -21px rgba(0,0,0,0.52);
+}
+nav{
+    
+    width:100%;
+    height: auto;
+    padding: 13px 0px;
+}
+#lista{
+    display: flex;
+    justify-content: end;
+
+}
+.item a{
+    margin: 0 .75rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: ghostwhite;
+    text-decoration: none;
+    font-size: 1.6rem;
+    
+}
+.item a:hover{
+    color:dodgerblue;
+}
+
+main{
+    text-align: center;
+    background-color: #f0ffff;
+    padding-top: 1.5rem;
+    
+}
+#titulo h1,h2{
+    padding: 10px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    filter: drop-shadow(0 2px 5px rgba(4, 77, 236, 0.404));
+}
+#titulo h1{
+    font-size: 3.8rem;
+}
+#titulo h2{
+    font-size: 2.0rem;
+}
+#articulo{
+     background-color:ghostwhite;
+    margin: 10px 15% 20px 15%;
+    padding: 25px 50px;
+    text-align: left;
+    border-color: #aaaaaa;
+    border-width: 1px;
+    border-style: solid;
+    
+}
+#articulo p{
+    font-family: sans-serif;
+    line-height: 180%;
+    font-size: 1.6rem;
+}
+h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom:15px;
+    font-size: 1.8rem;
+}
+#imagen{
+    width: auto;
+    height: 150px;
+}
+#redes{
+    background-color:#4fb6b9d2;
+    margin: 10px 15% 20px 15%;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+}
+#redes p{
+    font-size: 1.8rem;
+    font-family: 'Mochiy Pop P One', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    text-decoration: none;
+    list-style:none;
+}
+.icono{
+    display: inline-block;
+}
+.icono i{
+    color:azure;
+    padding:1.5rem;
+}
+.icono a i:hover{
+    transform: rotate(-45deg);
+}
+footer{
+    background-color: #0D5154;
+    color: ghostwhite;
+}
+footer h3{
+    padding:1.0rem;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    font-size: 1.4rem;
+    padding-bottom: 1.6rem;
+}
+#process{
+    padding-top: 1.5rem;
+    color:darkgray;
+}
+#process i{
+    padding-right:0.5rem;
+}
+.image{
+    max-width: 80%;
+    width: 60%;
+    padding: 2.5rem;
+    margin-left: 20%;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
